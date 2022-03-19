@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--代码由fish修改 2022/3/19-->
+<html>
+    <head>
+        <html lang="zh-CN">
+        <meta charset="UTF-8">
+        <meta name="Author" content="零零后（北京）科技有限公司">
+        <meta name="Keywords" content="黑人邀请您微信通... 黑人抬棺 专业团队">
+        <meta name="Description" content="黑人邀请您微信通... 黑人抬棺 专业团队">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+        <title>黑人邀请您微信通...</title>
+    </head>
+    <body>
+        <!--按钮-->
+        <button style="height: 30px; width: 50px">按钮</button>
+        <audio preload autoplay loop id="music">  
+            <!--src内是音乐路径-->
+            <source src="http://haiyong.site/wp-content/uploads/2021/12/樱花樱花想见你-Vk-1.mp3" type="audio/mpeg">  
+        </audio>  
+        <script type="text/javascript">  
+        window.onload = function(){  
+            setInterval("toggleSound()",1);  
+        }  
+        function toggleSound() {  
+            var music = document.getElementById("music");//获取ID  
+            if (music.paused) { //判读是否播放  
+                music.paused=false;  
+                music.play(); //没有就播放  
+            }  
+        }  
+        </script>
+    </body>
+</html>
